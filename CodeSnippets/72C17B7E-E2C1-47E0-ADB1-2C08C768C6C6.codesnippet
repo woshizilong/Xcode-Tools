@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+ 一：kvo值检测类型；
+ 1: NSKeyValueObservingOptionNew 传递变化之后的值；
+ 2: NSKeyValueObservingOptionOld 传递变化之前的值；
+ 3: NSKeyValueObservingOptionInitial 观察者会在程序初始时，也就是观察变化之前，优化执行一次 观察动作；即上述执行上面 block操作一次；并且传递 默认的值，和以后传递 变化后的值；
+ 4: NSKeyValueObservingOptionPrior 会调用两次观察者操作，值改变之前，值改变之后；
+ 
+ 二：获取 kvo的值；
+ change[NSKeyValueChangeNewKey] 新值；
+ change[NSKeyValueChangeOldKey] 旧值；
+ */
+
+fbKVO = [FBKVOController controllerWithObserver:self];
+  [fbKVO observe:_appModel
+         keyPath:@"isAuthOK"
+         options:NSKeyValueObservingOptionNew
+           block:^(id observer, id object, NSDictionary *change) {
+               if (change[NSKeyValueChangeNewKey]) {
+                 self.btnGetNotebooks.enabled = YES;
+                 self.btnGetNote.enabled = YES;
+               }
+
+           }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>72C17B7E-E2C1-47E0-ADB1-2C08C768C6C6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>KVOController使用方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>fbKVO</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

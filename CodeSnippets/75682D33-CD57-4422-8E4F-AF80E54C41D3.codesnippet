@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>MR_createEntity</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>Elapse *newElapse = [Elapse MR_createEntity];
+newElapse.elapseTitle = elapseTitle;
+newElapse.colorTag = colorTag;
+[[NSManagedObjectContext MR_defaultContext]
+ MR_saveOnlySelfWithCompletion:^(BOOL success, NSError *error) {
+     if (!error) {
+         NSLog(@"Save New Elapse is OK");
+     }
+ }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>75682D33-CD57-4422-8E4F-AF80E54C41D3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>保存对象</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MagicalRecordCreateEntity</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

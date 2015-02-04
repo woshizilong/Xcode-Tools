@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>FlurryInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//#import "Flurry.h"
+[Flurry setCrashReportingEnabled:YES];
+[Flurry startSession:@"GPTKQ5MHKVRXKM3G9RRT"];
+
+[Flurry logEvent:@"First Button Pressed"];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B449EBDF-CDCC-442C-8AB5-F31E0AD091ED</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Flurry初期化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>FlurryInit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
