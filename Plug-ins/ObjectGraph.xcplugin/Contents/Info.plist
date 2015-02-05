@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14B25</string>
+	<string>14C109</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Lin</string>
+	<string>ObjectGraph</string>
 	<key>CFBundleIdentifier</key>
-	<string>io.evolved.Lin</string>
+	<string>net.vampirewalk.ObjectGraph</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Lin</string>
+	<string>ObjectGraph</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.0</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -39,17 +39,13 @@
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
 		<string>C4A681B0-4A26-480E-93EC-1218098B9AA0</string>
-		<string>FEC992CC-CA4A-4CFD-8881-77300FCB848A</string>
+		<string>AD68E85B-441B-4301-B564-A45E4919A6AD</string>
 	</array>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Sascha Schwabbauer. All rights reserved.</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10</string>
 	<key>NSPrincipalClass</key>
-	<string>Lin</string>
+	<string>ObjectGraph</string>
 	<key>XC4Compatible</key>
-	<true/>
-	<key>XC5Compatible</key>
 	<true/>
 	<key>XCPluginHasUI</key>
 	<false/>
