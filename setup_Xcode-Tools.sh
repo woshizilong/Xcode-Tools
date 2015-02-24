@@ -17,5 +17,9 @@ ln -s ${SRC_HOME}/Plug-ins ~/Library/Application\ Support/Developer/Shared/Xcode
 #touch .vimrc (copy from git)
 #git clone https://github.com/woshizilong/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+#echo "install YouCompleteMe"
+#brew install cmake
+#cd ~/.vim/bundle/YouCompleteMe
+#./install.sh --clang-completer
 echo "done"
 
