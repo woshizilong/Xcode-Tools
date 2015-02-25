@@ -21,7 +21,7 @@ pod 'AsyncDisplayKit', '~> 1.1'
 
 # OSX only
 #崩溃分析
-#pod 'CrashlyticsFrameworkOSX', '~> 2.1'
+#pod 'CrashlyticsFrameworkOSX', '~> 2.2'
 
 
 # iOS and OSX
