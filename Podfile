@@ -35,6 +35,9 @@ pod 'pop', '~> 1.0'
 pod 'KVOController', '~> 1.0'
 #CoreData操作的蜜糖
 pod 'MagicalRecord', '~> 2.2'
+#日志库(强大、灵活、快速)
+pod 'CocoaLumberjack', '2.0.0-rc2'
+
 #Block化的附加方法
 #pod 'BlocksKit', '~> 2.2'
 
