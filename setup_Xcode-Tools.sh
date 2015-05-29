@@ -21,5 +21,13 @@ ln -s ${SRC_HOME}/Plug-ins ~/Library/Application\ Support/Developer/Shared/Xcode
 #brew install cmake
 #cd ~/.vim/bundle/YouCompleteMe
 #./install.sh --clang-completer
+
+#升级Xcode6.3插件失效解决办法
+#1.打开终端，输入以下代码获取到DVTPlugInCompatibilityUUID
+#defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
+#2.然后输入如下命令   【最后一项是获取到的DVTPlugInCompatibilityUUID】
+#find ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -name Info.plist -maxdepth 3 | xargs -I{} defaults write {} DVTPlugInCompatibilityUUIDs -array-add 9F75337B-21B4-4ADC-B558-F9CADF7073A7
+
+
 echo "done"
 
