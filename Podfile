@@ -34,7 +34,7 @@ pod 'pop', '~> 1.0'
 #Facebook出品的KVO操作库
 pod 'KVOController', '~> 1.0'
 #CoreData操作的蜜糖
-pod 'MagicalRecord', '~> 2.2'
+pod 'MagicalRecord', '~> 2.3'
 #日志库(强大、灵活、快速)
 pod 'CocoaLumberjack', '2.0.0-rc2'
 
