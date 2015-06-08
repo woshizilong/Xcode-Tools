@@ -21,7 +21,7 @@ pod 'AsyncDisplayKit', '~> 1.1'
 
 # OSX only
 #崩溃分析
-#pod 'CrashlyticsFrameworkOSX', '~> 2.2'
+#pod 'CrashlyticsFrameworkOSX', '~> 3.0'
 
 
 # iOS and OSX
@@ -41,3 +41,5 @@ pod 'CocoaLumberjack', '2.0.0-rc2'
 #Block化的附加方法
 #pod 'BlocksKit', '~> 2.2'
 
+#Json正反解析工具
+pod 'JSONKit', '1.5pre'
