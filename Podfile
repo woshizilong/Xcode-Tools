@@ -1,5 +1,7 @@
 =begin
 # iOS only
+#可能是最好用的iOS日期工具库[http://www.ios122.com/tag/datetools/]
+pod 'DateTools'
 #用户行为分析
 pod 'FlurrySDK', '~> 5.4'
 #崩溃分析
