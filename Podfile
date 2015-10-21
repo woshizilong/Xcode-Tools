@@ -20,6 +20,9 @@ pod 'KMCGeigerCounter', '~> 0.2'
 pod 'ZFTokenField', '~> 0.0'
 #Fackbook出品的提升操作体验的库，以block操作为主
 pod 'AsyncDisplayKit', '~> 1.1'
+
+#网络图像加载
+pod 'SDWebImage', '~> 3.7'
 =end
 
 
