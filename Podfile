@@ -1,3 +1,5 @@
+# https://cocoapods.org/
+
 =begin
 # iOS only
 #可能是最好用的iOS日期工具库[http://www.ios122.com/tag/datetools/]
@@ -45,3 +47,6 @@ pod 'CocoaLumberjack', '~> 2.0'
 
 #Json正反解析工具
 pod 'JSONKit', '1.5pre'
+
+#Mantle可以轻松把JSON数据、字典（Dictionary）和模型（即Objective对象）之间的相互转换，支持自定义映射，并且内置实现了NSCoding和NSCoping，大大简化归档操作。
+pod 'Mantle', '~> 2.0'
